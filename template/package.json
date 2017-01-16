@@ -14,5 +14,13 @@
   },
   "standard": {
     "globals": []
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+{{ url }}.git"
+  },
+  "bugs": {
+    "url": "{{ url }}/issues"
+  },
+  "homepage": "{{ url }}#readme"
 }
