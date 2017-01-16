@@ -5,7 +5,8 @@
   "author": "{{ author }}",
   "private": true,
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "lint": "eslint ."
   },
   "dependencies": {
   },
