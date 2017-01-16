@@ -1,0 +1,17 @@
+{
+  "name": "{{ name }}",
+  "description": "{{ description }}",
+  "version": "0.1.0",
+  "author": "{{ author }}",
+  "private": true,
+  "scripts": {
+    "test": "exit 0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "standard": {
+    "globals": []
+  }
+}
