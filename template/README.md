@@ -7,9 +7,14 @@
 ## Install
 ```bash
 $ npm i --save {{ name }}
+# or
+$ yarn add {{ name }}
 ```
 
 ## Usage
+```js
+import "{{ name }}"
+```
 
 ## License
 MIT © [Limichange](https://github.com/limichange)
