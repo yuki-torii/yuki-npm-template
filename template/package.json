@@ -1,16 +1,22 @@
 {
   "name": "{{ name }}",
   "description": "{{ description }}",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "author": "{{ author }}",
   "main": "src/index.js",
   "scripts": {
-    "test": "exit 0",
-    "lint": "eslint ."
+    "dev": "nodemon src/index.js",
+    "test": "npm run lint && ava",
+    "lint": "eslint --ext .js src test/unit/specs"
   },
   "dependencies": {
   },
   "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint": "^3.13.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
   },
   "standard": {
     "globals": []
