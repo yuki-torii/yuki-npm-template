@@ -3,7 +3,7 @@
   "description": "{{ description }}",
   "version": "0.1.0",
   "author": "{{ author }}",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "exit 0",
     "lint": "eslint ."
