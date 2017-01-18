@@ -13,7 +13,24 @@ $ yarn add {{ name }}
 
 ## Usage
 ```js
-import "{{ name }}"
+import {{ name }} from '{{ name }}'
+```
+
+## Development
+```bash
+# install dependencies
+$ npm i
+# or
+$ yarn
+
+# dev
+$ npm run dev
+
+# test
+$ npm run test
+
+# lint
+$ npm run lint
 ```
 
 ## License
