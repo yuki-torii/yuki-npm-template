@@ -9,6 +9,7 @@
     "test": "npm run lint && ava",
     "lint": "eslint --ext .js src test/unit/specs"
   },
+  "license": "MIT",
   "dependencies": {
   },
   "devDependencies": {

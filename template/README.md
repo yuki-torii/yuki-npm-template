@@ -42,4 +42,4 @@ $ npm run lint
  - Submit a pull request 🍻
 
 ## Author
-{{ name }} © [Limichange](https://github.com/limichange), Released under the MIT License.
+{{ name }} © [Limichange](https://github.com/limichange), Released under the [MIT](https://opensource.org/licenses/MIT) License.
