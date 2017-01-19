@@ -10,6 +10,9 @@
     "lint": "eslint --ext .js src test/unit/specs"
   },
   "license": "MIT",
+  "pre-commit": [
+    "lint"
+  ],
   "dependencies": {
   },
   "devDependencies": {
@@ -17,7 +20,8 @@
     "eslint": "^3.13.1",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint-plugin-standard": "^2.0.1",
+    "pre-commit": "^1.1.3",
   },
   "standard": {
     "globals": []
