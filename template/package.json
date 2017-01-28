@@ -3,7 +3,8 @@
   "description": "{{ description }}",
   "version": "0.0.1",
   "author": "{{ author }}",
-  "main": "src/index.js",
+  "main": "dist/{{ name }}.common.js",
+  "unpkg": "dist/{{ name }}.js",
   "scripts": {
     "dev": "rollup -cw",
     "build": "rollup -c --environment BUILD && uglifyjs dist/{{ name }}.js > dist/{{ name }}.min.js",
