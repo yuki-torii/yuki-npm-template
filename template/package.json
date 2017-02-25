@@ -1,7 +1,7 @@
 {
   "name": "{{ name }}",
   "description": "{{ description }}",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "author": "{{ author }}",
   "main": "dist/{{ name }}.common.js",
   "unpkg": "dist/{{ name }}.js",
