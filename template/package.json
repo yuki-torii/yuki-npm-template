@@ -6,7 +6,7 @@
   "main": "dist/{{ name }}.common.js",
   "unpkg": "dist/{{ name }}.js",
   "scripts": {
-    "dev": "rollup -cw",
+    "dev": "node examples/server.js",
     "build": "rollup -c --environment BUILD && uglifyjs dist/{{ name }}.js > dist/{{ name }}.min.js",
     "test": "npm run lint && ava",
     "lint": "eslint --ext .js src test/unit/specs"
@@ -32,7 +32,10 @@
     "rollup-plugin-commonjs": "^7.0.0",
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-watch": "^3.2.2",
-    "uglify-js": "^2.7.5"
+    "uglify-js": "^2.7.5",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.17.1"
   },
   "standard": {
     "globals": []
