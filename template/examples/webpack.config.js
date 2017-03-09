@@ -31,7 +31,7 @@ module.exports = {
 
   resolve: {
     alias: {
-      'yuki-orienter': path.resolve(__dirname, '../src/index.esm.js')
+      '{{ name }}': path.resolve(__dirname, '../src/index.esm.js')
     }
   },
 
